@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Notes" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Prevent the white flash on app startup by setting the background to match our dark theme -->
+        <item name="android:windowBackground">#0F172A</item>
+        <!-- Remove the default Android 12+ system splash screen icon to avoid the double-logo flash -->
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+    </style>
+</resources>

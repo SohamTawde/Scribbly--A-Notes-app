@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Photos captured with "Take Photo" are written here -->
+    <files-path name="captured_images" path="images/" />
+</paths>

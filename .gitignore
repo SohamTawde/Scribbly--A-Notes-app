@@ -1,0 +1,66 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated build directories
+build/
+app/build/
+**/build/
+bin/
+gen/
+out/
+
+# Gradle and Kotlin caches
+.gradle/
+.kotlin/
+*.gradle/
+
+# Local machine configuration (SDK path, etc.)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.navigation/
+captures/
+.externalNativeBuild
+.cxx/
+
+# Keystore files (NEVER commit signing keys)
+*.jks
+*.keystore
+signing.properties
+
+# Memory dumps and profiler logs
+*.hprof
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sample HTML animation prototype & previews
+/animation_preview.html
+/*.html
+
+# Sample images & reference storyboards in root (preserves app/src/main/res/ drawables)
+/storyboard_reference.png
+/*.png
+/*.jpg
+/*.jpeg
+WhatsApp Image*
+
+# Video recordings & screencasts
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
