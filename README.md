@@ -75,5 +75,8 @@ A modern, fluid, and expressive notes & productivity app built with **Jetpack Co
 
 ---
 
-## 📄 License
-This project is open-source under the [MIT License](LICENSE).
+## 📄 License & Copyright
+
+Copyright © 2026 **Soham Tawde**. All rights reserved.
+
+This project is licensed under the [MIT License](LICENSE).

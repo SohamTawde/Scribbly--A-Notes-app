@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Soham Tawde. All rights reserved.
+ * Scribbly - Notes & Tasks for Android
+ */
+
 package com.example.notes.ui.screens
 
 import android.Manifest

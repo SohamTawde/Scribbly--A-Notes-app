@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Notes</string>
+    <string name="app_name">Scribbly</string>
+    <string name="developer_name">Soham Tawde</string>
+    <string name="copyright_notice">Copyright © 2026 Soham Tawde. All rights reserved.</string>
 </resources>

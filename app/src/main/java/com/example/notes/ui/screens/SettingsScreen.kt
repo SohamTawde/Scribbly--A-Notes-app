@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Soham Tawde. All rights reserved.
+ * Scribbly - Notes & Tasks for Android
+ */
+
 package com.example.notes.ui.screens
 
 import androidx.compose.foundation.background
@@ -338,17 +343,39 @@ fun SettingsScreen(
                     Spacer(modifier = Modifier.width(12.dp))
                     Column {
                         Text(
-                            text = "App Version",
+                            text = "Scribbly",
                             style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
                             color = if (glassyUiEnabled) glassyContentColor else MaterialTheme.colorScheme.onSurface
                         )
                         Text(
-                            text = "v2.0 (Material You & Glassy)",
+                            text = "v2.0 • Notes & Tasks",
                             style = MaterialTheme.typography.bodySmall,
                             color = if (glassyUiEnabled) glassyContentColor.copy(alpha = 0.55f) else MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
                 }
+            }
+
+            // Copyright & Developer Footer
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 16.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "Copyright © 2026 Soham Tawde",
+                    style = MaterialTheme.typography.bodyMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = if (glassyUiEnabled) glassyContentColor.copy(alpha = 0.75f) else MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Spacer(modifier = Modifier.height(2.dp))
+                Text(
+                    text = "All rights reserved",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = if (glassyUiEnabled) glassyContentColor.copy(alpha = 0.45f) else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f)
+                )
             }
         }
     }
